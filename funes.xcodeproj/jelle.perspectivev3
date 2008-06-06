@@ -283,8 +283,6 @@
 								<string>29B97323FDCFA39411CA2CEA</string>
 								<string>1058C7A0FEA54F0111CA2CBB</string>
 								<string>1C37FBAC04509CD000000102</string>
-								<string>60428BC50DEF1275002263FD</string>
-								<string>60428BF70DEF142D002263FD</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
@@ -296,7 +294,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 228}, {242, 622}}</string>
+							<string>{{0, 160}, {242, 622}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -343,7 +341,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>60428C030DEF14AF002263FD</string>
+										<string>60A34FB40DF9AC3C00F02F6F</string>
 										<key>history</key>
 										<array>
 											<string>6085D9780DB3F768000CAF67</string>
@@ -370,7 +368,7 @@
 											<string>60FC72D30DEE0DFB00898DAA</string>
 											<string>60FC72D40DEE0DFB00898DAA</string>
 											<string>60428BDB0DEF137E002263FD</string>
-											<string>60428C020DEF14A4002263FD</string>
+											<string>60428C030DEF14AF002263FD</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -396,7 +394,6 @@
 											<string>605E7C730DEE08800018C7EF</string>
 											<string>605E7C740DEE08800018C7EF</string>
 											<string>605E7C750DEE08800018C7EF</string>
-											<string>60428BDC0DEF137E002263FD</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -410,14 +407,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {936, 445}}</string>
+								<string>{{0, 0}, {936, 444}}</string>
 								<key>RubberWindowFrame</key>
 								<string>443 140 1200 681 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>445pt</string>
+							<string>444pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
@@ -519,11 +516,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>60428B9E0DEF118B002263FD</string>
+				<string>60A34FB10DF9AC3B00F02F6F</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>60428B9F0DEF118B002263FD</string>
+				<string>60A34FB20DF9AC3B00F02F6F</string>
 				<string>60366DBF0DA6A92B00D7F9A2</string>
-				<string>60428BA00DEF118B002263FD</string>
+				<string>60A34FB30DF9AC3B00F02F6F</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
