@@ -31,7 +31,7 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>creative common license 2008 - fousa.be</string>
 	<key>SUFeedURL</key> 
-	<string>http://localhost:3000/feeds/appcast.xml</string>
+	<string>http://feeds.feedburner.com/milkcarton/funes</string>
 	<key>SUAllowsAutomaticUpdates</key> 
 	<string>YES</string>
 </dict>

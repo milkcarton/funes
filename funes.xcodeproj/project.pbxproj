@@ -11,6 +11,7 @@
 		60366E4C0DA6B1DB00D7F9A2 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60366E4B0DA6B1DB00D7F9A2 /* ScriptingBridge.framework */; };
 		607E1C540DB17BF00079A4B8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 607E1C530DB17BF00079A4B8 /* Localizable.strings */; };
 		607E1C580DB17C3B0079A4B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165DFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		608D75500E0D7D8B00E4A9A1 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FEF5170E0D772500C64D5D /* Sparkle.framework */; };
 		60B9698E0DEE0598005F377B /* CustomStatusItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B969880DEE0598005F377B /* CustomStatusItem.m */; };
 		60B9698F0DEE0598005F377B /* iTunesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B9698B0DEE0598005F377B /* iTunesController.m */; };
 		60B969900DEE0598005F377B /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B9698D0DEE0598005F377B /* MainController.m */; };
@@ -34,7 +35,7 @@
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 7;
+			dstSubfolderSpec = 10;
 			files = (
 				60FEF5420E0D772900C64D5D /* Sparkle.framework in CopyFiles */,
 			);
@@ -86,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				608D75500E0D7D8B00E4A9A1 /* Sparkle.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				60366E4C0DA6B1DB00D7F9A2 /* ScriptingBridge.framework in Frameworks */,
 			);

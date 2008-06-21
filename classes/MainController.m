@@ -41,14 +41,14 @@
 		[self rating:[iTunes rating]];
 		if ([iTunes rating] <= 0) [statusItem toggleRated:1];
 		else [statusItem toggleRated:2];
-		if ([menu numberOfItems] <= 3) {
+		if ([menu numberOfItems] <= 5) {
 			[menu insertItem:starItem atIndex:2];
 			[menu insertItem:[NSMenuItem separatorItem] atIndex:3];
 		}	
 	} else {
 		[songLabel setTitle:NSLocalizedString(@"notplaying", nil)];
 		[statusItem toggleRated:0];
-		if ([menu numberOfItems] > 3) {
+		if ([menu numberOfItems] > 5) {
 			[menu removeItem:starItem];
 			[menu removeItemAtIndex:2];
 		}
