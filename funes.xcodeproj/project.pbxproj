@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		6029CF2D0DB3E7E70053A989 /* versions.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6029CF2C0DB3E7E70053A989 /* versions.rtf */; };
 		60366E4C0DA6B1DB00D7F9A2 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60366E4B0DA6B1DB00D7F9A2 /* ScriptingBridge.framework */; };
-		60428C050DEF14EC002263FD /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60428C040DEF14EC002263FD /* Sparkle.framework */; };
 		607E1C540DB17BF00079A4B8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 607E1C530DB17BF00079A4B8 /* Localizable.strings */; };
 		607E1C580DB17C3B0079A4B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165DFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		60B9698E0DEE0598005F377B /* CustomStatusItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B969880DEE0598005F377B /* CustomStatusItem.m */; };
@@ -24,6 +23,7 @@
 		60B969B40DEE05FC005F377B /* ratingAlt.png in Resources */ = {isa = PBXBuildFile; fileRef = 60B969AB0DEE05FC005F377B /* ratingAlt.png */; };
 		60B969B50DEE05FC005F377B /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 60B969AC0DEE05FC005F377B /* icon.icns */; };
 		60B969B60DEE05FC005F377B /* on.png in Resources */ = {isa = PBXBuildFile; fileRef = 60B969AD0DEE05FC005F377B /* on.png */; };
+		60FEF5420E0D772900C64D5D /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 60FEF5170E0D772500C64D5D /* Sparkle.framework */; };
 		8D11072A0486CEB800E47090 /* StatusMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* StatusMenu.nib */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -36,6 +36,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
+				60FEF5420E0D772900C64D5D /* Sparkle.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +56,6 @@
 		601E54ED0DB1705A00ABD25F /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Dutch; path = Dutch.lproj/StatusMenu.nib; sourceTree = "<group>"; };
 		6029CF2C0DB3E7E70053A989 /* versions.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = versions.rtf; sourceTree = "<group>"; };
 		60366E4B0DA6B1DB00D7F9A2 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = /System/Library/Frameworks/ScriptingBridge.framework; sourceTree = "<absolute>"; };
-		60428C040DEF14EC002263FD /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = frameworks/Sparkle.framework; sourceTree = SOURCE_ROOT; };
 		607E1C510DB17BD20079A4B8 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
 		607E1C550DB17BF80079A4B8 /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Dutch; path = Dutch.lproj/Localizable.strings; sourceTree = "<group>"; };
 		607E1C560DB17BFB0079A4B8 /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -76,6 +76,7 @@
 		60B969AB0DEE05FC005F377B /* ratingAlt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ratingAlt.png; path = images/ratingAlt.png; sourceTree = SOURCE_ROOT; };
 		60B969AC0DEE05FC005F377B /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = images/icon.icns; sourceTree = SOURCE_ROOT; };
 		60B969AD0DEE05FC005F377B /* on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = on.png; path = images/on.png; sourceTree = SOURCE_ROOT; };
+		60FEF5170E0D772500C64D5D /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = frameworks/Sparkle.framework; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Funes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Funes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -87,7 +88,6 @@
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				60366E4C0DA6B1DB00D7F9A2 /* ScriptingBridge.framework in Frameworks */,
-				60428C050DEF14EC002263FD /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,7 +110,7 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				60428C040DEF14EC002263FD /* Sparkle.framework */,
+				60FEF5170E0D772500C64D5D /* Sparkle.framework */,
 				60366E4B0DA6B1DB00D7F9A2 /* ScriptingBridge.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 			);
