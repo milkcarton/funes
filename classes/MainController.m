@@ -46,7 +46,7 @@
 			[menu insertItem:[NSMenuItem separatorItem] atIndex:3];
 		}	
 	} else {
-		[songLabel setTitle:NSLocalizedString(@"notplaying", nil)];
+		[songLabel setTitle:NSLocalizedString(@"NOT_PLAYING", nil)];
 		[statusItem toggleRated:0];
 		if ([menu numberOfItems] > 5) {
 			[menu removeItem:starItem];

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6029CF2D0DB3E7E70053A989 /* versions.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6029CF2C0DB3E7E70053A989 /* versions.rtf */; };
 		60366E4C0DA6B1DB00D7F9A2 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60366E4B0DA6B1DB00D7F9A2 /* ScriptingBridge.framework */; };
 		607E1C540DB17BF00079A4B8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 607E1C530DB17BF00079A4B8 /* Localizable.strings */; };
 		607E1C580DB17C3B0079A4B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165DFE840E0CC02AAC07 /* InfoPlist.strings */; };
@@ -25,9 +24,9 @@
 		60B969B50DEE05FC005F377B /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 60B969AC0DEE05FC005F377B /* icon.icns */; };
 		60B969B60DEE05FC005F377B /* on.png in Resources */ = {isa = PBXBuildFile; fileRef = 60B969AD0DEE05FC005F377B /* on.png */; };
 		60FEF5420E0D772900C64D5D /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 60FEF5170E0D772500C64D5D /* Sparkle.framework */; };
-		8D11072A0486CEB800E47090 /* StatusMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* StatusMenu.nib */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		E6B3D6360E0F0031006C560E /* StatusMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97319FDCFA39411CA2CEA /* StatusMenu.nib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,19 +47,12 @@
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/StatusMenu.nib; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* StatusMenu.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = StatusMenu.nib; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* Funes_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Funes_Prefix.pch; sourceTree = "<group>"; };
-		601E54EB0DB1704F00ABD25F /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/StatusMenu.nib; sourceTree = "<group>"; };
-		601E54EC0DB1705500ABD25F /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/StatusMenu.nib; sourceTree = "<group>"; };
-		601E54ED0DB1705A00ABD25F /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Dutch; path = Dutch.lproj/StatusMenu.nib; sourceTree = "<group>"; };
-		6029CF2C0DB3E7E70053A989 /* versions.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = versions.rtf; sourceTree = "<group>"; };
 		60366E4B0DA6B1DB00D7F9A2 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = /System/Library/Frameworks/ScriptingBridge.framework; sourceTree = "<absolute>"; };
-		607E1C510DB17BD20079A4B8 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
-		607E1C550DB17BF80079A4B8 /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Dutch; path = Dutch.lproj/Localizable.strings; sourceTree = "<group>"; };
-		607E1C560DB17BFB0079A4B8 /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/Localizable.strings; sourceTree = "<group>"; };
-		607E1C570DB17BFD0079A4B8 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
+		607E1C510DB17BD20079A4B8 /* English */ = {isa = PBXFileReference; explicitFileType = text.plist.strings; fileEncoding = 10; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
 		60B969870DEE0598005F377B /* CustomStatusItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomStatusItem.h; path = classes/CustomStatusItem.h; sourceTree = SOURCE_ROOT; };
 		60B969880DEE0598005F377B /* CustomStatusItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomStatusItem.m; path = classes/CustomStatusItem.m; sourceTree = SOURCE_ROOT; };
 		60B969890DEE0598005F377B /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iTunes.h; path = classes/iTunes.h; sourceTree = "<group>"; };
@@ -165,9 +157,8 @@
 				60366DD50DA6ACFB00D7F9A2 /* Images */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165DFE840E0CC02AAC07 /* InfoPlist.strings */,
-				29B97318FDCFA39411CA2CEA /* StatusMenu.nib */,
+				29B97319FDCFA39411CA2CEA /* StatusMenu.nib */,
 				607E1C530DB17BF00079A4B8 /* Localizable.strings */,
-				6029CF2C0DB3E7E70053A989 /* versions.rtf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -256,10 +247,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D11072A0486CEB800E47090 /* StatusMenu.nib in Resources */,
+				E6B3D6360E0F0031006C560E /* StatusMenu.nib in Resources */,
 				607E1C580DB17C3B0079A4B8 /* InfoPlist.strings in Resources */,
 				607E1C540DB17BF00079A4B8 /* Localizable.strings in Resources */,
-				6029CF2D0DB3E7E70053A989 /* versions.rtf in Resources */,
 				60B969AE0DEE05FC005F377B /* starFill.png in Resources */,
 				60B969AF0DEE05FC005F377B /* rating.png in Resources */,
 				60B969B00DEE05FC005F377B /* onAlt.png in Resources */,
@@ -289,24 +279,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		29B97318FDCFA39411CA2CEA /* StatusMenu.nib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				29B97319FDCFA39411CA2CEA /* English */,
-				601E54EB0DB1704F00ABD25F /* French */,
-				601E54EC0DB1705500ABD25F /* German */,
-				601E54ED0DB1705A00ABD25F /* Dutch */,
-			);
-			name = StatusMenu.nib;
-			sourceTree = "<group>";
-		};
 		607E1C530DB17BF00079A4B8 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				607E1C510DB17BD20079A4B8 /* English */,
-				607E1C550DB17BF80079A4B8 /* Dutch */,
-				607E1C560DB17BFB0079A4B8 /* German */,
-				607E1C570DB17BFD0079A4B8 /* French */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
