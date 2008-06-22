@@ -72,6 +72,8 @@
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Funes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Funes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6B3D6390E0F00A6006C560E /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/StatusMenu.xib; sourceTree = "<group>"; };
+		E6B3D6510E0F01CB006C560E /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Dutch; path = Dutch.lproj/StatusMenu.xib; sourceTree = "<group>"; };
+		E6B3D6530E0F01F9006C560E /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Dutch; path = Dutch.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -283,6 +285,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				607E1C510DB17BD20079A4B8 /* English */,
+				E6B3D6530E0F01F9006C560E /* Dutch */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E6B3D6390E0F00A6006C560E /* English */,
+				E6B3D6510E0F01CB006C560E /* Dutch */,
 			);
 			name = StatusMenu.xib;
 			sourceTree = "<group>";

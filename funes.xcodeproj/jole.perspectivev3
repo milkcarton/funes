@@ -235,8 +235,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -276,13 +274,15 @@
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
+								<string>E6B3D6380E0F00A6006C560E</string>
 								<string>607E1C530DB17BF00079A4B8</string>
 								<string>19C28FACFE9D520D11CA2CBB</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>14</integer>
+									<integer>19</integer>
+									<integer>17</integer>
 									<integer>9</integer>
 									<integer>0</integer>
 								</array>
@@ -316,12 +316,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>E651D2380E0E87A2007EB565</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Info.plist</string>
+								<string>Localizable.strings</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -329,11 +331,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>E651D2390E0E87A2007EB565</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Info.plist</string>
+										<string>Localizable.strings</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E6B3D6490E0F015A006C560E</string>
+										<string>E6B3D65A0E0F022F006C560E</string>
 										<key>history</key>
 										<array>
 											<string>E60600F30E0ECC8500B7EEE3</string>
@@ -341,8 +343,9 @@
 											<string>E60600F50E0ECC8500B7EEE3</string>
 											<string>E60600F60E0ECC8500B7EEE3</string>
 											<string>E6EB76490E0EFF0200853025</string>
-											<string>E6B3D63F0E0F0107006C560E</string>
-											<string>E60600F20E0ECC8500B7EEE3</string>
+											<string>E6B3D6550E0F022F006C560E</string>
+											<string>E6B3D6560E0F022F006C560E</string>
+											<string>E6B3D6570E0F022F006C560E</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -353,6 +356,8 @@
 											<string>E60601010E0ECC8500B7EEE3</string>
 											<string>E60601020E0ECC8500B7EEE3</string>
 											<string>E6B3D6400E0F0107006C560E</string>
+											<string>E6B3D6580E0F022F006C560E</string>
+											<string>E6B3D6590E0F022F006C560E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
