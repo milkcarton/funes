@@ -26,7 +26,7 @@
 		60FEF5420E0D772900C64D5D /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 60FEF5170E0D772500C64D5D /* Sparkle.framework */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		E6B3D6360E0F0031006C560E /* StatusMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97319FDCFA39411CA2CEA /* StatusMenu.nib */; };
+		E6B3D63A0E0F00A6006C560E /* StatusMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6B3D6380E0F00A6006C560E /* StatusMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,7 +47,6 @@
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		29B97319FDCFA39411CA2CEA /* StatusMenu.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = StatusMenu.nib; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* Funes_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Funes_Prefix.pch; sourceTree = "<group>"; };
@@ -72,6 +71,7 @@
 		60FEF5170E0D772500C64D5D /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = frameworks/Sparkle.framework; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Funes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Funes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B3D6390E0F00A6006C560E /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/StatusMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,7 +157,7 @@
 				60366DD50DA6ACFB00D7F9A2 /* Images */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165DFE840E0CC02AAC07 /* InfoPlist.strings */,
-				29B97319FDCFA39411CA2CEA /* StatusMenu.nib */,
+				E6B3D6380E0F00A6006C560E /* StatusMenu.xib */,
 				607E1C530DB17BF00079A4B8 /* Localizable.strings */,
 			);
 			name = Resources;
@@ -247,7 +247,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6B3D6360E0F0031006C560E /* StatusMenu.nib in Resources */,
 				607E1C580DB17C3B0079A4B8 /* InfoPlist.strings in Resources */,
 				607E1C540DB17BF00079A4B8 /* Localizable.strings in Resources */,
 				60B969AE0DEE05FC005F377B /* starFill.png in Resources */,
@@ -259,6 +258,7 @@
 				60B969B40DEE05FC005F377B /* ratingAlt.png in Resources */,
 				60B969B50DEE05FC005F377B /* icon.icns in Resources */,
 				60B969B60DEE05FC005F377B /* on.png in Resources */,
+				E6B3D63A0E0F00A6006C560E /* StatusMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +285,14 @@
 				607E1C510DB17BD20079A4B8 /* English */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		E6B3D6380E0F00A6006C560E /* StatusMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6B3D6390E0F00A6006C560E /* English */,
+			);
+			name = StatusMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
