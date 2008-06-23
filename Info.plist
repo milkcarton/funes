@@ -30,8 +30,6 @@
 	<string>NSApplication</string>
 	<key>NSUIElement</key>
 	<string>1</string>
-	<key>SUAllowsAutomaticUpdates</key>
-	<string>YES</string>
 	<key>SUFeedURL</key>
 	<string>http://feeds.feedburner.com/milkcarton/funes</string>
 </dict>
