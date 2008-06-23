@@ -9,7 +9,7 @@
 	<key>CFBundleIconFile</key>
 	<string>icon</string>
 	<key>CFBundleIdentifier</key>
-	<string>be.fousa.Funes</string>
+	<string>be.milkcarton.Funes</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -19,11 +19,9 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>0.2</string>
+	<string>1.0</string>
 	<key>NSBackgroundOnly</key>
 	<string>1</string>
-	<key>NSHumanReadableCopyright</key>
-	<string>creative common license 2008 - fousa.be</string>
 	<key>NSMainNibFile</key>
 	<string>StatusMenu</string>
 	<key>NSPrincipalClass</key>
