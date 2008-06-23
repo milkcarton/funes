@@ -50,6 +50,12 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* Funes_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Funes_Prefix.pch; sourceTree = "<group>"; };
+<<<<<<< .mine
+		601E54EB0DB1704F00ABD25F /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/StatusMenu.nib; sourceTree = "<group>"; };
+		601E54EC0DB1705500ABD25F /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/StatusMenu.nib; sourceTree = "<group>"; };
+		601E54ED0DB1705A00ABD25F /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Dutch; path = Dutch.lproj/StatusMenu.nib; sourceTree = "<group>"; };
+=======
+>>>>>>> .r23
 		60366E4B0DA6B1DB00D7F9A2 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = /System/Library/Frameworks/ScriptingBridge.framework; sourceTree = "<absolute>"; };
 		607E1C510DB17BD20079A4B8 /* English */ = {isa = PBXFileReference; explicitFileType = text.plist.strings; fileEncoding = 10; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
 		60B969870DEE0598005F377B /* CustomStatusItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomStatusItem.h; path = classes/CustomStatusItem.h; sourceTree = SOURCE_ROOT; };
